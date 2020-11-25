@@ -1,0 +1,62 @@
+body{
+    background: #F9DBBD;
+}
+header,main,nav,footer {
+    text-align:center;
+}
+
+.header { 
+    width:50%;
+    height: 1px;
+    background-color: #000;
+    border: none;
+}
+.footer{
+    height: 1px;
+    background-color: #000;
+    border: none;
+}
+
+.text {
+    font-size: 20px;
+    color: #450920;
+}
+.bio{
+    font-size: 18px;
+}
+table {
+    margin:0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+.facts {
+    width:500px;
+    margin:0 auto;
+    text-align: left;
+}
+.funfacts{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font-weight:bolder;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+nav a{ /* links within "nav" container */
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color:white; /* by default links are blue */
+}
+nav a:hover{ /* pseudo class*/
+    color:#cc4055;
+    font-size: 2em;
+    trtansition: .9s; /* transition effect */
+}
+.highlighted{
+       color:#cc4055;
+    }
